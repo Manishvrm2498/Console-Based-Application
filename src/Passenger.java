@@ -5,6 +5,7 @@ public class Passenger {
     private int  age;
     private String gender;
 
+    
     public Passenger(String name, int age, String gender) {
         this.passengerID = nextPassengerID++;
         this.name = name;

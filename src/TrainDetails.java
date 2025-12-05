@@ -8,6 +8,7 @@ public class TrainDetails {
     private   int availableSeats;
     private double fare;
 
+    
     public TrainDetails(int trainNumber, String trainName, String sourceStation, String destinationStation, int totalSeats,int availableSeats, double fare) {
         this.trainNumber = trainNumber;
         this.trainName = trainName;

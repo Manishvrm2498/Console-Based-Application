@@ -8,6 +8,7 @@ class Booking {
     private static int nextBookingId = 1000;
     private final String bookingId;
 
+    
     private int trainNumber;
     private List<Passenger> passengerList;
     private TrainDetails trains;
