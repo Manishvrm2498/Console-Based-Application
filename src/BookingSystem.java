@@ -10,6 +10,7 @@ public class BookingSystem {
     private final String adminUsername = "admin";
     private final String adminPassword = "admin1234";
 
+    
     public BookingSystem() {
         trains = new HashMap<>();
         bookings = new HashMap<>();
